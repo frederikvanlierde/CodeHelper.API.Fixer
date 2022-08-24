@@ -17,3 +17,16 @@ Frederik van Lierde <https://twitter.com/@frederik_vl/>
 ## Usage
 * Free Plan: 100 Requests / Daily
 * Paid plans available: <https://apilayer.com/marketplace/fixer-api#pricing>
+
+## CODE
+´´´C#
+using  CodeHelper.API.Fixer;
+CodeHelper.API.Fixer.FixerHelper fixerHelper = new() { APIKey = "yuor-api-key" };
+
+double _convert = await fixerHelper.Convert("CHF", "USD", 100);
+
+var _data = await fixerHelper.LatestExchangeRates("CHF", "USD,EUR,JPY");
+
+foreach (Symbol _s in await fixerHelper.GetSymbols())
+    Console.WriteLine(_s.CurrencyName + "(" + _s.CurrencySymbol + ")");
+´´´´
