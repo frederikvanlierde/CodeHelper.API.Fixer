@@ -9,8 +9,8 @@ For more information and a list of endpoints available, please see the detailed 
 * NuGet <https://www.nuget.org/packages/CodeHelper.API.Fixer>
 
 ## Version
-1.1.0 : Fluctuations, TimeSeries, Get Historical Rates
-1.0.0 : Get Symbols, Convert Amounts, Get Latest Exchange Rate Data
+* 1.1.0 : Fluctuations, TimeSeries, Get Historical Rates
+* 1.0.0 : Get Symbols, Convert Amounts, Get Latest Exchange Rate Data
 
 ## Methods
 * FixerHelper.GetSymbols() : Returning all available currencies.
