@@ -3,10 +3,10 @@ Fixer is a lightweight and simple API for historical and current foreign exchang
 For more information and a list of endpoints available, please see the detailed documentation pages below.
 
 ## Question?
-Fixer API: <https://apilayer.com/marketplace/fixer-api>
-Frederik van Lierde <https://twitter.com/@frederik_vl/>
-GitHub <https://github.com/frederikvanlierde/CodeHelper.API.Fixer>
-NuGet <https://www.nuget.org/packages/CodeHelper.API.Fixer>
+* Fixer API <https://apilayer.com/marketplace/fixer-api>
+* Frederik van Lierde <https://twitter.com/@frederik_vl/>
+* GitHub <https://github.com/frederikvanlierde/CodeHelper.API.Fixer>
+* NuGet <https://www.nuget.org/packages/CodeHelper.API.Fixer>
 
 ## Version
 1.1.0 : Fluctuations, TimeSeries, Get Historical Rates
